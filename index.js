@@ -23,6 +23,16 @@ const quizData = [{
         question: "What is the best country in Africa?",
         options: ["South Africa", "West Africa", "East Africa", "North Africa", "Giant of Africa"],
         correctAnswer: "Giant of Africa"
+    },
+    {
+        question: "What is the best Anime of all time?",
+        options: ["Naruto", "Bleach", "One Piece", "AOT", "Dragon Ball Z", "Hunter X Hunter"],
+        correctAnswer: "Naruto"
+    },
+    {
+        question: "Who is the Richest man in the world ?",
+        options: ["Jeff Bezos", "Elon Musk", "Bill Gates", "Donald Trump", "Dangote"],
+        correctAnswer: "Elon Musk"
     }
 ];
 
