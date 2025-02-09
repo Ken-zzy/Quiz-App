@@ -1,9 +1,29 @@
-const quizData = [
-    { question: "Who is the best Footballer to ever exist?", options: ["Pele", "Anthony", "Maradona", "Ronaldo", "Messi"], correctAnswer: "Messi" },
-    { question: "Who is the Greatest rapper to ever exist?", options: ["Eminem", "Jay-Z", "2 pac", "Biggie", "Akpi!"], correctAnswer: "Eminem" },
-    { question: "What is the most versatile programming language?", options: ["JS", "Java", "C++", "Python", "Igbo"], correctAnswer: "Python" },
-    { question: "How many States are there in Nigeria?", options: ["32", "39", "37", "38", "36"], correctAnswer: "36" },
-    { question: "What is the best country in Africa?", options: ["South Africa", "West Africa", "East Africa", "North Africa", "Giant of Africa"], correctAnswer: "Giant of Africa" }
+const quizData = [{
+
+        question: "Who is the best Footballer to ever exist?",
+        options: ["Pele", "Anthony", "Maradona", "Ronaldo", "Messi"],
+        correctAnswer: "Messi"
+    },
+    {
+        question: "Who is the Greatest rapper to ever exist?",
+        options: ["Eminem", "Jay-Z", "2 pac", "Biggie", "Akpi!"],
+        correctAnswer: "Eminem"
+    },
+    {
+        question: "What is the most versatile programming language?",
+        options: ["JS", "Java", "C++", "Python", "Igbo"],
+        correctAnswer: "Python"
+    },
+    {
+        question: "How many States are there in Nigeria?",
+        options: ["32", "39", "37", "38", "36"],
+        correctAnswer: "36"
+    },
+    {
+        question: "What is the best country in Africa?",
+        options: ["South Africa", "West Africa", "East Africa", "North Africa", "Giant of Africa"],
+        correctAnswer: "Giant of Africa"
+    }
 ];
 
 let currentQuestion = 0;
